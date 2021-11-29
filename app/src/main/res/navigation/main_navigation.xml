@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main_navigation"
+    app:startDestination="@id/loginOrRegisterFragment">
+
+    <fragment
+        android:id="@+id/listFragment"
+        android:name="org.wit.hivetrackerapp.fragments.ListFragment"
+        android:label="List of Hives"
+        tools:layout="@layout/fragment_list" >
+        <action
+            android:id="@+id/action_listFragment_to_addFragment"
+            app:destination="@id/addFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/addFragment"
+        android:name="org.wit.hivetrackerapp.fragments.AddFragment"
+        android:label="Add Hive to Database"
+        tools:layout="@layout/fragment_add" >
+        <action
+            android:id="@+id/action_addFragment_to_listFragment"
+            app:destination="@id/listFragment"
+            app:enterAnim="@anim/nav_default_enter_anim"
+            app:exitAnim="@anim/nav_default_exit_anim" />
+    </fragment>
+    <fragment
+        android:id="@+id/aboutusFragment"
+        android:name="org.wit.hivetrackerapp.fragments.AboutusFragment"
+        android:label="About App"
+        tools:layout="@layout/fragment_aboutus" />
+    <fragment
+        android:id="@+id/updateFragment"
+        android:name="org.wit.hivetrackerapp.fragments.UpdateFragment"
+        android:label="fragment_update"
+        tools:layout="@layout/fragment_update" />
+    <fragment
+        android:id="@+id/loginFragment2"
+        android:name="org.wit.hivetrackerapp.login.LoginFragment"
+        android:label="Login"
+        tools:layout="@layout/fragment_login" />
+    <fragment
+        android:id="@+id/loginOrRegisterFragment"
+        android:name="org.wit.hivetrackerapp.login.LoginOrRegisterFragment"
+        android:label="Choose Login or Register"
+        tools:layout="@layout/fragment_login_or_register" />
+    <fragment
+        android:id="@+id/registerFragment"
+        android:name="org.wit.hivetrackerapp.login.RegisterFragment"
+        android:label="Register"
+        tools:layout="@layout/fragment_register" />
+    <fragment
+        android:id="@+id/accountDetailsFragment"
+        android:name="org.wit.hivetrackerapp.login.AccountDetailsFragment"
+        android:label="Account Details"
+        tools:layout="@layout/fragment_account_details" />
+</navigation>

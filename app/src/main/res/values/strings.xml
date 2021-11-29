@@ -1,0 +1,99 @@
+<resources>
+    <string name="app_name">HiveTrackerApp</string>
+    <string name="button_addHive">Add Hive</string>
+    <string name="button_deleteHive">Delete Hive</string>
+    <string name="hint_hiveTitle">Hive Title</string>
+    <string name="hint_hiveDescription">Description </string>
+    <string name="hint_hiveType">Type </string>
+    <string name="menu_addHive">Add</string>
+    <string name="menu_cancelHive">Cancel</string>
+    <string name="enter_hive_tag">Please Enter a tag</string>
+    <string name="save_hive">Save Hive</string>
+    <string name="button_addImage"> Add Image </string>
+    <string name="button_changeImage"> Change Image </string>
+    <string name="select_hive_image">Select hive image</string>
+    <string name="button_location">Set Location</string>
+    <string name="tag_activity_maps">MapsActivity</string>
+
+    <string name="button_update_search">Update List</string>
+
+    <string name="action_add">Add Hive</string>
+    <string name="action_list">Hives List</string>
+    <string name="action_share">Share</string>
+    <string name="action_send">Send</string>
+    <string name="action_logout">Logout</string>
+    <string name="action_account">Account</string>
+    <string name="group_communicate">Communicate</string>
+    <string name="group_account">Account</string>
+
+    <string name="nav_header_tag">Hive Tracker</string>
+    <string name="nav_header_subtag">Hive Tracking Application</string>
+    <string name="nav_header_desc">Navigation header</string>
+
+    <string name="action_about">About Us</string>
+    <string name="aboutus_tag">Hive Tracker App</string>
+    <string name="aboutus_message">Hi, Welcome\n\nOur app will help track hives.\n\n So we can help the Bee Population</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <!-- Strings related to login -->
+    <string name="fragment_header_home">Welcome. Choose Login or Register</string>
+    <string name="fragment_header_login">Login</string>
+    <string name="fragment_header_register">Register</string>
+    <string name="prompt_email">Email</string>
+    <string name="prompt_password">Password</string>
+    <string name="prompt_username">Username</string>
+    <string name="prompt_firstname">First Name</string>
+    <string name="prompt_secondname">Second Name</string>
+    <string name="action_sign_in">Sign in or register</string>
+    <string name="action_sign_in_short">Sign in</string>
+    <string name="action_register_short">Register</string>
+
+    <string name="welcome">"Welcome!"</string>
+    <string name="invalid_username">Not a valid username</string>
+    <string name="invalid_username_notUnique">User Name Already Exists. Choose Another</string>
+    <string name="invalid_password">Password must be >5 characters</string>
+    <string name="invalid_password_login">Password Incorrect</string>
+    <string name="invalid_email">Not a valid email</string>
+    <string name="invalid_email_notUnique">Email Address Already used</string>
+    <string name="invalid_firstname">Not a valid first name</string>
+    <string name="invalid_secondname">Not a valid second name</string>
+    <string name="login_failed">"Login failed"</string>
+
+    <string name="button_update">UPDATE</string>
+    <string name="button_delete_account">DELETE ACCOUNT</string>
+    <string name="info_dateJoinedHeader">Date Joined</string>
+    <string name="info_totalHives">Number of Hives</string>
+    <string name="info_unknown">Unknown</string>
+    <!-- Strings related to Spinner -->
+    <string-array name="hiveType">
+        <item>National</item>
+        <item>Super</item>
+        <item>Warree</item>
+        <item>Langstroth</item>
+        <item>Top Bar</item>
+    </string-array>
+    <string-array name="hiveTypeSearch">
+        <item>All Hive Types</item>
+        <item>National</item>
+        <item>Super</item>
+        <item>Warree</item>
+        <item>Langstroth</item>
+        <item>Top Bar</item>
+    </string-array>
+    <!-- Preference Titles -->
+    <string name="messages_header">Messages</string>
+    <string name="sync_header">Sync</string>
+
+    <!-- Messages Preferences -->
+    <string name="signature_tag">Your signature</string>
+    <string name="reply_tag">Default reply action</string>
+
+    <!-- Sync Preferences -->
+    <string name="sync_tag">Sync email periodically</string>
+    <string name="attachment_tag">Download incoming attachments</string>
+    <string name="attachment_summary_on">Automatically download attachments for incoming emails
+    </string>
+    <string name="attachment_summary_off">Only download attachments when manually requested</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+</resources>

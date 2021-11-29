@@ -1,0 +1,12 @@
+*.iml
+.gradle
+/local.properties
+/.idea
+.DS_Store
+/build
+/captures
+.externalNativeBuild
+.cxx
+app/src/release/res/values/google_maps_api.xml
+app/src/debug/res/values/google_maps_api.xml
+app/src/main/java/org/wit/hivetrackerapp/helpers/salt.kt
